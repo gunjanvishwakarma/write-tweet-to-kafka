@@ -28,10 +28,10 @@ public class WriteTweetToKafka
         ConfigurationBuilder cb = new ConfigurationBuilder();
         
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("yDnPCKNBtTF5h5FrB9KtkDbbn")
-                .setOAuthConsumerSecret("kvDVDsh9N4Pl549zPcX7mToHG7Qyq3FjXTDpj7JdoxjMKqafsp")
-                .setOAuthAccessToken("448920351-fPR5XURoRdu5fYjzSfGk56kPZN1NWWvBpzczAqmf")
-                .setOAuthAccessTokenSecret("Guz9Oq1qC2cgXyOJo85zpZmO7n5J6oD4q6p88fdtXymFL");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
         
         TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
         
